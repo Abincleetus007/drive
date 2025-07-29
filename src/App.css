@@ -433,6 +433,23 @@ section {
   background-color: #0d2a52;
 }
 
+.mail-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.mail-btn:hover {
+  background-color: var(--secondary-color);
+}
+
+
 .overview-stats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -484,7 +501,20 @@ section {
   display: flex;
   align-items: center;
   gap: 0.8rem;
+  color:white;
 }
+
+.contact-info a {
+  color: inherit; /* keeps the same text color */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
 
 .footer-section ul {
   list-style: none;

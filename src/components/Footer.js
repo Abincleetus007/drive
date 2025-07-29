@@ -13,9 +13,16 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Contact Us</h4>
           <div className="contact-info">
-            <p><span>📱</span> 99999999999</p>
-            <p><span>✉️</span> HIRE@drive-services.com</p>
-          </div>
+  <p>
+    <span>📱</span> 
+    <a href="tel:+919999999999" className="contact-link">99999999999</a>
+  </p>
+  <p>
+    <span>✉️</span> 
+    <a href="mailto:HIRE@drive-services.com" className="contact-link">HIRE@drive-services.com</a>
+  </p>
+</div>
+
         </div>
         
         <div className="footer-section">

@@ -24,7 +24,7 @@ const CompanyOverview = () => {
   className="enquiry-btn"
 onClick={() =>
   window.open(
-    'https://wa.me/+916238597406?text=Hello%2C%20I%27d%20like%20to%20make%20an%20enquiry',
+    'https://wa.me/+916238597406?text=Hello HIRE LOOP i would like%20to%20make%20an%20enquiry',
     '_blank',
     'noopener,noreferrer'
   )
