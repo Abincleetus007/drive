@@ -22,13 +22,14 @@ const CompanyOverview = () => {
           </p>
  <button
   className="enquiry-btn"
-  onClick={() =>
-    window.open(
-      'https://docs.google.com/forms/d/e/1FAIpQLSdLLmC8kMK04CxYliln76cR2epURP5GNftopcAeNPO0MAwtAQ/viewform?usp=header',
-      '_blank',
-      'noopener,noreferrer'
-    )
-  }
+onClick={() =>
+  window.open(
+    'https://wa.me/+916238597406?text=Hello%2C%20I%27d%20like%20to%20make%20an%20enquiry',
+    '_blank',
+    'noopener,noreferrer'
+  )
+}
+
 >
   Make an Enquiry
 </button>
