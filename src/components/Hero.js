@@ -9,7 +9,7 @@ const Hero = () => {
     <section className="hero" id="home">
       <div className="hero-content">
         <h1>HIRE DRIVERS</h1>
-        <h2>Hire Temporary Drivers at Your Convenience</h2>
+        <h2>Drivers on Demand. Reliable Rides, Just Around the Corner — Because Every Journey Matters.</h2>
         <button className="book-now-btn" onClick={() => navigate('/pricing')}>
           Book Now
         </button>
